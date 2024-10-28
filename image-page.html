@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Font style for the body */
+            margin: 0; /* Remove default margin */
+            padding: 20px; /* Add padding around the body */
+            text-align: center; /* Center-align the text */
+            background-color: #f8f9fa; /* Light background color */
+        }
+        h1 {
+            color: #333; /* Dark color for the heading */
+            margin-bottom: 20px; /* Space below the heading */
+        }
+        .image-container {
+            width: 400px; /* Set a fixed width for the image container */
+            height: 400px; /* Set a fixed height for the image container */
+            overflow: hidden; /* Hide overflow to maintain the aspect ratio */
+            margin: 0 auto; /* Center the container */
+            border: 2px solid #007bff; /* Optional border around the image */
+            border-radius: 8px; /* Optional rounded corners */
+            display: flex; /* Use flexbox to center the image */
+            justify-content: center; /* Center the image horizontally */
+            align-items: center; /* Center the image vertically */
+            background-color: #fff; /* White background for the container */
+        }
+        img {
+            max-width: 100%; /* Make sure the image doesn't exceed the width of its container */
+            max-height: 100%; /* Ensure the image fits within the height */
+            height: auto; /* Maintain aspect ratio */
+        }
+        a {
+            display: inline-block; /* Allow padding and margin */
+            margin-top: 20px; /* Space above the link */
+            text-decoration: none; /* Remove underline */
+            color: #007bff; /* Link color */
+            font-size: 18px; /* Font size for the link */
+            transition: color 0.3s; /* Smooth transition for color change */
+        }
+        a:hover {
+            color: #0056b3; /* Darker color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="/My-Portfolio-main/assets/img/myImage.jpg" alt="My Image" />
+    </div>
+    <br>
+    <a href="index.html">Go Back</a> <!-- Link back to the main page -->
+</body>
+</html>
